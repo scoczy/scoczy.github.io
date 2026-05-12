@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Email: chenzhy266@mail2.sysu.edu.cn
-    <p>University: Sun Yat-sen University</p>
+    <p>chenzhy266@mail2.sysu.edu.cn
+    <p>Sun Yat-sen University</p>
     <p>Research: Omnidirectional UAV / UAV Control / Robotics</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
