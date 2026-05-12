@@ -27,15 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a master's student at Sun Yat-sen University...
-
+I am an MSc student in control and robotics at Sun Yat-sen University. My recent research focuses on over-actuated UAV platforms, including control allocation, robust flight control, and PX4-based implementation for complex aerial vehicles.
+My work combines theoretical control design with practical robotic system development. I have experience in UAV modeling, controller implementation, simulation, and real-world flight experiments. In particular, I am interested in bridging advanced control theory with deployable autonomous systems through simulation validation and hardware integration.
+Currently, I am exploring topics related to over-actuated UAV platforms and autonomous flight control for aerial robots. I am also interested in reinforcement learning and motion planning for real-world UAV systems.
+I am actively seeking PhD opportunities in robotics, autonomous systems, and control theory.
 My research interests include:
 
 - UAV flight control
-- PX4 autopilot
 - Over-actuated aerial vehicles
-#Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-#Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- Fault-tolerant control
+- Autonomous aerial robotics
+- Control allocation and robust control
