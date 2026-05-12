@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  UAV Control | Robotics 
+subtitle:  MSc Student in Control & Robotics
 
 profile:
   align: right
