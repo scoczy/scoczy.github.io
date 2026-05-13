@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-start-researching-and-exploring-over-actuated-uav-platforms",
-          title: 'Start researching and exploring over-actuated UAV platforms.',
+            },},{id: "news-started-research-on-over-actuated-uav-platforms-with-a-primary-focus-on-tilt-rotor-tricopter-systems",
+          title: 'Started research on over-actuated UAV platforms, with a primary focus on tilt-rotor tricopter...',
           description: "",
           section: "News",},{id: "news-co-authored-and-published-a-paper-at-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-2025-as-a-co-first-author",
           title: 'Co-authored and published a paper at IEEE/RSJ International Conference on Intelligent Robots and...',
