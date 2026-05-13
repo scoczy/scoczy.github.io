@@ -1,4 +1,4 @@
----
+<img width="526" height="158" alt="image" src="https://github.com/user-attachments/assets/bce227a8-8e85-4704-a03a-9926273d8076" /><img width="619" height="105" alt="image" src="https://github.com/user-attachments/assets/d1fcf01e-dc4c-426d-a392-da29954c0089" />---
 layout: page
 title: Over-Actuated Tricopter Platform
 description: This project presents a novel over-actuated tricopter platform.
@@ -10,7 +10,7 @@ related_publications: true
 
 ## Overview
 
-This project presents a novel overactuated tricopter featuring a servo-driven twisting and tilting mechanism. The system integrates control allocation, simulation, PX4 autopilot modifications, and real-world flight experiments.
+This project presents a novel overactuated tricopter featuring a servo-driven twisting and tilting mechanism. To address the asymmetry inherent in the tricopter configuration, we conducted a qualitative analysis of the disturbances introduced by the actuators. We emphasize the need to include gyroscopic torque effects caused by arm rotations and  proposed improved Force Decomposition (FD)-based iteration offering a low-cost computational solution.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,6 +32,32 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 
 ---
 
+## Technical Highlights
+
+---
+
+## Experimental Results
+
+### Simulation
+
+The designed tricopter and the proposed FD-based Iteration (FDI) algorithm are implemented in Simscape for simulation. For comparison, the FD algorithm is also employed. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/simulation.png" title="Control Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Simulation results of the over-actuated tricopter.
+</div>
+
+### Outdoor Flight Test
+
+The tricopter maneuvers along a square trajectory, similar to the simulation, in an outdoor environment, with position data provided by a GPS receiver.
+
+
+
+---
+
 ## My Contributions
 
 - UAV flight control
@@ -43,16 +69,18 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 ---
 
 ## Demonstration Video
-
-<iframe 
-  src="https://player.bilibili.com/player.html?bvid=BV1EQqGBoEnG&page=1"
-  width="560"
-  height="315"
-  scrolling="no"
-  border="0"
-  frameborder="no"
-  framespacing="0"
-  allowfullscreen="true">
-</iframe>
+- IROS 2025 Presentation Video
+<div style="display: flex; justify-content: center; margin: 30px 0;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1EQqGBoEnG&page=1"
+    width="960"
+    height="540"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true">
+  </iframe>
+</div>
 
 ---
