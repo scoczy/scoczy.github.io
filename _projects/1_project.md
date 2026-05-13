@@ -83,16 +83,15 @@ The tricopter maneuvers along a square trajectory, similar to the simulation, in
 
 ## My Contributions
 
-- UAV flight control
-- Over-actuated aerial vehicles
-- Fault-tolerant control
-- Autonomous aerial robotics
-- Control allocation and robust control
+- Participated in the development of the over-actuated UAV platform
+- Contributed to the design and implementation of flight control algorithms
+- Implemented control algorithms within the PX4 autopilot framework
+- Conducted flight testing, parameter tuning, and system debugging
 
 ---
 
 ## Demonstration Video
-- IROS 2025 Presentation Video
+### IROS 2025 Presentation Video
 <div style="display: flex; justify-content: center; margin: 30px 0;">
   <iframe
     src="https://player.bilibili.com/player.html?bvid=BV1EQqGBoEnG&page=1"
