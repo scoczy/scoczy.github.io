@@ -408,12 +408,10 @@ ninja.data = [{
             },},{id: "news-start-researching-and-exploring-over-actuated-uav-platforms",
           title: 'Start researching and exploring over-actuated UAV platforms.',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-co-authored-and-published-a-paper-at-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-2025-as-a-co-first-author",
+          title: 'Co-authored and published a paper at IEEE/RSJ International Conference on Intelligent Robots and...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-conference-paper-accepted-by-iros-2025",
+          section: "News",},{id: "news-conference-paper-accepted-by-iros-2025",
           title: 'Conference paper accepted by IROS 2025.',
           description: "",
           section: "News",},{id: "news-took-over-the-development-of-a-coaxial-tilt-rotor-tricopter-platform-following-earlier-involvement-as-a-supporting-contributor",
