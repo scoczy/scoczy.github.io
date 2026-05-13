@@ -14,7 +14,7 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 
 
 <div class="row justify-content-sm-center">
-     <div class="col-md-8 mt-3 mt-md-0">
+     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_tri/structure.png" title="Mechanical Structure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -23,7 +23,7 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-md-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_tri/Control.png" title="Control Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
