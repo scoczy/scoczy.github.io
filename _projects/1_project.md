@@ -2,7 +2,7 @@
 layout: page
 title: Overactuated Tricopter UAV
 description: This project presents a novel over-actuated tricopter platform.
-img: assets/img/tri.jpg
+img: assets/img/proj_tri/tri.jpg
 importance: 1
 category: work
 related_publications: true
