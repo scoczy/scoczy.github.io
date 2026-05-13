@@ -1,4 +1,4 @@
-<img width="526" height="158" alt="image" src="https://github.com/user-attachments/assets/bce227a8-8e85-4704-a03a-9926273d8076" /><img width="619" height="105" alt="image" src="https://github.com/user-attachments/assets/d1fcf01e-dc4c-426d-a392-da29954c0089" />---
+---
 layout: page
 title: Over-Actuated Tricopter Platform
 description: This project presents a novel over-actuated tricopter platform.
