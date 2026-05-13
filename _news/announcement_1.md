@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Start researching and exploring over-actuated UAV platforms.
+Started research on over-actuated UAV platforms, with a primary focus on tilt-rotor tricopter systems.
