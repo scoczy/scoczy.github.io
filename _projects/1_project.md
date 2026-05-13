@@ -5,7 +5,7 @@ description: This project presents a novel over-actuated tricopter platform.
 img: assets/img/proj_tri/tri.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
@@ -35,6 +35,21 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 
 ## Technical Highlights
 
+- UAV flight control
+- Over-actuated aerial vehicles
+- Fault-tolerant control
+- Autonomous aerial robotics
+- Control allocation and robust control
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/torque.png" title="disturbances analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Qualitative analysis of the disturbances introduced by the actuators.
+</div>
+
 ---
 
 ## Experimental Results
@@ -42,9 +57,10 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 ### Simulation
 
 The designed tricopter and the proposed FD-based Iteration (FDI) algorithm are implemented in Simscape for simulation. For comparison, the FD algorithm is also employed. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_tri/simulation.png" title="Control Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/simulation.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,7 +71,14 @@ The designed tricopter and the proposed FD-based Iteration (FDI) algorithm are i
 
 The tricopter maneuvers along a square trajectory, similar to the simulation, in an outdoor environment, with position data provided by a GPS receiver.
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/outdoor.png" title="outdoor flight" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Outdoor flight results of the over-actuated tricopter.
+</div>
 
 ---
 
