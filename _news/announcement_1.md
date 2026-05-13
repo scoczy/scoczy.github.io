@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started research on over-actuated UAV platforms, with a primary focus on tilt-rotor tricopter systems.
+Started research on over-actuated UAV platforms, with a primary focus on actively and passively tilting tricopter systems.
