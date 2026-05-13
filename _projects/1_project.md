@@ -12,16 +12,20 @@ related_publications: true
 
 This project presents a novel overactuated tricopter featuring a servo-driven twisting and tilting mechanism. To address the asymmetry inherent in the tricopter configuration, we conducted a qualitative analysis of the disturbances introduced by the actuators. We emphasize the need to include gyroscopic torque effects caused by arm rotations and  proposed improved Force Decomposition (FD)-based iteration offering a low-cost computational solution.
 
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+
+<div class="row justify-content-sm-center">
+     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_tri/structure.png" title="Mechanical Structure" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/torque.png" title="Asymmetry Inherent" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Configuration of the proposed tilt-rotor tricopter.
 </div>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_tri/Control.png" title="Control Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
