@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed the development of a coaxial tilt-rotor tricopter platform.
+Completed the development of a coaxial tilt-rotor tricopter platform and initiated research on passive-hinged tricopter systems.
