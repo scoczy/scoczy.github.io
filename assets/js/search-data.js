@@ -420,8 +420,8 @@ ninja.data = [{
           section: "News",},{id: "news-prepared-a-research-manuscript-on-passive-tilt-rotor-tricopter-systems-currently-under-review",
           title: 'Prepared a research manuscript on passive tilt-rotor tricopter systems, currently under review',
           description: "",
-          section: "News",},{id: "projects-overactuated-tricopter-uav",
-          title: 'Overactuated Tricopter UAV',
+          section: "News",},{id: "projects-over-actuated-tricopter-platform-for-autonomous-flight",
+          title: 'Over-Actuated Tricopter Platform for Autonomous Flight',
           description: "This project presents a novel over-actuated tricopter platform.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
