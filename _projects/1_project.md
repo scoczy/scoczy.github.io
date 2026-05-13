@@ -35,11 +35,10 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 
 ## Technical Highlights
 
-- UAV flight control
-- Over-actuated aerial vehicles
-- Fault-tolerant control
-- Autonomous aerial robotics
-- Control allocation and robust control
+- Servo-driven over-actuated omnidirectional tricopter with high maneuverability and improved flight efficiency
+- Explicit modeling and evaluation of disturbances introduced by arm rotation mechanisms
+- Consideration of gyroscopic torque effects caused by rotating arms, with a low-computational-cost compensation method
+- Validated through simulation and real-world flight experiments
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
