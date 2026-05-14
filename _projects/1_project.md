@@ -105,4 +105,18 @@ The tricopter maneuvers along a square trajectory, similar to the simulation, in
   </iframe>
 </div>
 
+### High-maneuverability flight demonstration
+<div style="display: flex; justify-content: center; margin: 30px 0;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV11iD5D63Ev9&page=1"
+    width="960"
+    height="540"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true">
+  </iframe>
+</div>
+
 ---
