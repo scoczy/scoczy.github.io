@@ -93,30 +93,26 @@ The tricopter maneuvers along a square trajectory, similar to the simulation, in
 ## Demonstration Video
 ### IROS 2025 Presentation Video
 <div style="display: flex; justify-content: center; margin: 30px 0;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1EQqGBoEnG&page=1"
-    width="960"
-    height="540"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true">
-  </iframe>
+  <div style="width: 100%; max-width: 720px; aspect-ratio: 16 / 9;">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV1EQqGBoEnG&page=1"
+      style="width: 100%; height: 100%;"
+      frameborder="no"
+      allowfullscreen="true">
+    </iframe>
+  </div>
 </div>
 
 ### High-maneuverability flight demonstration
 <div style="display: flex; justify-content: center; margin: 30px 0;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV11iD5D63Ev9&page=1"
-    width="960"
-    height="540"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true">
-  </iframe>
+  <div style="width: 100%; max-width: 720px; aspect-ratio: 16 / 9;">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV1iD5D63Ev9&page=1"
+      style="width: 100%; height: 100%;"
+      frameborder="no"
+      allowfullscreen="true">
+    </iframe>
+  </div>
 </div>
 
 ---
