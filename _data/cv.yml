@@ -2,7 +2,7 @@ cv:
   name: Zheyu Chen
   label: Graduate Researcher
   email: chenzhy266@mail2.sysu.edu.cn
-  location: Shenzhen, Guangdong518107, China
+  location: Shenzhen, Guangdong, China
   image: ""
   Research Interests: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
@@ -20,6 +20,12 @@ cv:
     countryCode: CN
 
   sections:
+
+    Research Interests:
+      - name: Physics
+        icon: fa-solid fa-tag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+  
     Education:
       - institution: Sun Yat-sen University (SYSU)
         location: Shenzhen, China
@@ -28,7 +34,7 @@ cv:
         start_date: 2020
         end_date: 2024
         highlights:
-          - GPA: 3.6/5.0
+          - GPA 3.6/5.0
           - Recommended for graduate studies (exempt from entrance exam)
 
       - institution:  Sun Yat-sen University (SYSU)
@@ -38,8 +44,8 @@ cv:
         start_date: 2020
         end_date: Present
         highlights:
-          - Research focus: over-actuated UAV design and control
-          - GPA: 4.2/5.0
+          - Research focus over-actuated UAV design and control
+          - GPA 4.2/5.0
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -53,19 +59,16 @@ cv:
 
     Technical Skills:
       - name: Control / Robotics
-        level: 
         icon: fa-solid fa-hashtag
-        keywords: "Nonlinear control / Control allocation"
+        keywords: "Nonlinear control,  Control allocation"
 
       - name: Tools
-        level: 
         icon: fa-solid fa-hashtag
-        keywords: "PX4 / MATLAB / Simulink / C++"
+        keywords: "PX4, MATLAB, Simulink, C++"
 
       - name: Hardware
-        level: 
         icon: fa-solid fa-hashtag
-        keywords: "UAV systems / Flight controller tuning"
+        keywords: "UAV systems, Flight controller tuning"
 
     Projects:
       - name: Quantum Computing
