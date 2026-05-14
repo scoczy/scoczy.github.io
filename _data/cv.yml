@@ -51,7 +51,7 @@ cv:
         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
 
-    Technica Skills:
+    Technical Skills:
       - name: Control / Robotics
         level: 
         icon: fa-solid fa-hashtag
@@ -76,7 +76,7 @@ cv:
         start_date: 2018-01-01
         end_date: 2018-01-01
 
-       - name: Quantum Computing
+      - name: Computing
         summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
         highlights:
           - Quantum Teleportation
