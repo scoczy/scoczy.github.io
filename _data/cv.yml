@@ -61,9 +61,7 @@ cv:
     Skills:
       - name: Control / Robotics
         icon: fa-solid fa-hashtag
-        keywords: 
-        -Nonlinear control
-        -Control allocation
+        keywords: "Nonlinear control,Control allocation"
 
       - name: Tools
         icon: fa-solid fa-hashtag
