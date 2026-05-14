@@ -22,9 +22,10 @@ cv:
   sections:
 
     Research Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - UAV flight control
+      - Over-actuated aerial vehicles
+      - PX4 autopilot systems
+      - Autonomous flight and robotics
   
     Education:
       - institution: Sun Yat-sen University (SYSU)
@@ -57,10 +58,12 @@ cv:
         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
 
-    Technical Skills:
+    Skills:
       - name: Control / Robotics
         icon: fa-solid fa-hashtag
-        keywords: "Nonlinear control,  Control allocation"
+        keywords: 
+        -Nonlinear control
+        -Control allocation
 
       - name: Tools
         icon: fa-solid fa-hashtag
