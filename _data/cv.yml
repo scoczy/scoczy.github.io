@@ -1,6 +1,6 @@
 cv:
   name: Zheyu Chen
-  label: Graduate Researcher
+  title: Graduate Researcher
   email: chenzhy266@mail2.sysu.edu.cn
   location: Shenzhen, Guangdong, China
   image: ""
@@ -21,11 +21,15 @@ cv:
 
   sections:
 
-    Research Interests:
-      - UAV flight control
-      - Over-actuated aerial vehicles
-      - PX4 autopilot systems
-      - Autonomous flight and robotics
+    Interests:
+      - name: UAV flight control
+        icon: fa-solid fa-tag
+      - name: Over-actuated aerial vehicles
+        icon: fa-solid fa-tag
+      - name: PX4 autopilot systems
+        icon: fa-solid fa-tag
+      - name: Autonomous flight and robotics
+        icon: fa-solid fa-tag
   
     Education:
       - institution: Sun Yat-sen University (SYSU)
