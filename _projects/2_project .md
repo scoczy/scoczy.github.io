@@ -2,7 +2,7 @@
 layout: page
 title: Over-Actuated Tricopter Platform
 description: This project presents a novel over-actuated tricopter platform.
-img: assets/img/proj_tri/tri.png
+img: assets/img/proj_pass/tri_pass.png
 importance: 2
 category: work
 related_publications: false
