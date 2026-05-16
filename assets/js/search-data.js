@@ -425,11 +425,11 @@ ninja.data = [{
           description: "This project presents a novel over-actuated tricopter platform.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-over-actuated-tricopter-platform",
+          title: 'Over-Actuated Tricopter Platform',
+          description: "This project presents a novel over-actuated tricopter platform.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/2_project%20/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
