@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Over-Actuated Tricopter Platform
-description: This project presents a novel over-actuated tricopter platform.
+title: A Passively Articulated Overactuated Tricopter
+description: This project presents presents a passively articulated over actuated tricopter alone with a Two-Step INDI framework.
 img: assets/img/proj_pass/tri_pass.png
 importance: 2
 category: work
@@ -58,7 +58,7 @@ enhancing the achievable phase margin.
     </div>
 </div>
 <div class="caption">
-     Hierarchical TS-INDI control framework of the overactuated tricopter.
+     Illustration of the thrust direction reaching the desired value faster than the thrust magnitude in the passively articulated propulsion unit.
 </div>
 
 ---
@@ -67,18 +67,28 @@ enhancing the achievable phase margin.
 
 ### Simulation
 
-The designed tricopter and the proposed FD-based Iteration (FDI) algorithm are implemented in Simscape for simulation. For comparison, the FD algorithm is also employed. 
+The designed tricopter is simulated in Simscape using the proposed TS-INDI, with PID (FD allocation) and conventional INDI schemes for comparison. In simulation, the tricopter hovers at a fixed position while a linear frequency-sweep excitation (0.01–4 Hz, amplitude 2°) is injected to the pitch attitude channel, with the remaining attitude channels held at zero. Frequency-sweep experiments are performed as the pitch angle increases from 0° to 90° in 10° increments. Since the platform exhibits strong nonlinearities at large attitude angles, the experiments
+across multiple attitudes are employed to characterize the local dynamic behavior of the controller.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_tri/simulation.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_pass/chirp_line.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Simulation results of the over-actuated tricopter.
+     Crossover frequency and phase margin versus attitude for the three methods. Missing entries indicate failure to complete the frequency-sweep experiment. 
 </div>
 
-### Outdoor Flight Test
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/bode.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Pitch-channel Bode plots at 20°, 40°, 60°, and 80° pitch; INDI cannot complete the frequency-sweep experiments beyond a pitch angle of 20°.
+</div>
+
+### Flight Test
 
 The tricopter maneuvers along a square trajectory, similar to the simulation, in an outdoor environment, with position data provided by a GPS receiver.
 
