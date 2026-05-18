@@ -425,9 +425,9 @@ ninja.data = [{
           description: "This project presents a novel over-actuated tricopter platform.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-over-actuated-tricopter-platform",
-          title: 'Over-Actuated Tricopter Platform',
-          description: "This project presents a novel over-actuated tricopter platform.",
+            },},{id: "projects-a-passively-articulated-overactuated-tricopter",
+          title: 'A Passively Articulated Overactuated Tricopter',
+          description: "This project presents presents a passively articulated over actuated tricopter alone with a Two-Step INDI framework.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project%20/";
             },},{id: "teachings-data-science-fundamentals",
