@@ -46,11 +46,9 @@ performance.
 ## Technical Highlights
 
 
-- A passively articulated overactuated tricopter platform is proposed. It adopts a centralized architecture, enabling flight without reliance on external infrastructure.
-- An INDI-based control framework is adopted to enhance the platform’s robustness to disturbances and singularities. To explicitly handle actuator redundancy, a two-step INDI scheme (TS-INDI) is proposed by
-integrating Force Decomposition (FD) into the INDI framework, thereby avoiding secondary null-space objectives and eliminating dependence on motor thrust at specific operating points.
-- Within the TS-INDI framework, the dynamic mismatch between thrust magnitude and direction is explicitly taken into account in a computationally lightweight manner, improving allocation accuracy and thereby
-enhancing the achievable phase margin.
+- A passively articulated overactuated tricopter platform is proposed.
+- A two-step INDI scheme (TS-INDI) is proposed and adopted to enhance the platform’s robustness against disturbances, singularities, and actuator redundancy.
+- Within the TS-INDI framework, the dynamic mismatch between thrust magnitude and direction is explicitly taken into account in a computationally lightweight manner.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -67,12 +65,11 @@ enhancing the achievable phase margin.
 
 ### Simulation
 
-The designed tricopter is simulated in Simscape using the proposed TS-INDI, with PID (FD allocation) and conventional INDI schemes for comparison. In simulation, the tricopter hovers at a fixed position while a linear frequency-sweep excitation (0.01–4 Hz, amplitude 2°) is injected to the pitch attitude channel, with the remaining attitude channels held at zero. Frequency-sweep experiments are performed as the pitch angle increases from 0° to 90° in 10° increments. Since the platform exhibits strong nonlinearities at large attitude angles, the experiments
-across multiple attitudes are employed to characterize the local dynamic behavior of the controller.
+The designed tricopter is simulated in Simscape using the proposed TS-INDI, with PID (FD allocation) and conventional INDI schemes for comparison. In simulation, the tricopter hovers at a fixed position while a linear frequency-sweep excitation (0.01–4 Hz, amplitude 2°) is injected to the pitch attitude channel, with the remaining attitude channels held at zero. Frequency-sweep experiments are performed as the pitch angle increases from 0° to 90° in 10° increments. The crossover frequency and phase margin extracted from the frequency responses are used as local measures of bandwidth and stability for comparison among three control strategies.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_pass/chirp_line.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj_pass/chirp_line.png" title="simulation flight1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +78,7 @@ across multiple attitudes are employed to characterize the local dynamic behavio
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_tri/bode.png" title="simulation flight" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj_tri/bode.png" title="simulation flight2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
