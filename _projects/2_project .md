@@ -11,7 +11,7 @@ related_publications: false
 ## Overview
 
 
-This letter presents a passively articulated over
+This project presents a passively articulated over
 actuated tricopter alone with a Two-Step INDI (TS-INDI)
 framework. TS-INDI, built on the INDI framework, first uses Force Decomposition
 (FD) to pre-allocate control increments and then distributes
@@ -29,34 +29,36 @@ performance.
     </div>
 </div>
 <div class="caption">
-    Configuration of the proposed tilt-rotor tricopter.
+     (a) The proposed tilting-rotor tricopter and the defined coordinate system, where the body frame xB axis is aligned with the forward direction. (b) Structural details of the 2-DOF joint. (c)Photograph of a 2-DOF joint.(d) The geometric dimensions of the tricopter.
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_pass/Control.png" title="Control Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Overall control architecture of the over-actuated tricopter.
+     Hierarchical TS-INDI control framework of the overactuated tricopter.
 </div>
 
 ---
 
 ## Technical Highlights
 
-- Servo-driven over-actuated omnidirectional tricopter with high maneuverability and improved flight efficiency
-- Explicit modeling and evaluation of disturbances introduced by arm rotation mechanisms
-- Consideration of gyroscopic torque effects caused by rotating arms, with a low-computational-cost compensation method
-- Validated through simulation and real-world flight experiments
+
+- A passively articulated overactuated tricopter platform is proposed. It adopts a centralized architecture, enabling flight without reliance on external infrastructure.
+- An INDI-based control framework is adopted to enhance the platform’s robustness to disturbances and singularities. To explicitly handle actuator redundancy, a two-step INDI scheme (TS-INDI) is proposed by
+integrating Force Decomposition (FD) into the INDI framework, thereby avoiding secondary null-space objectives and eliminating dependence on motor thrust at specific operating points.
+- Within the TS-INDI framework, the dynamic mismatch between thrust magnitude and direction is explicitly taken into account in a computationally lightweight manner, improving allocation accuracy and thereby
+enhancing the achievable phase margin.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_tri/torque1.png" title="disturbances analysis" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_pass/statement.jpg" title="Statement" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Qualitative analysis of the disturbances introduced by the actuators.
+     Hierarchical TS-INDI control framework of the overactuated tricopter.
 </div>
 
 ---
