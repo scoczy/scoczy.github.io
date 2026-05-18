@@ -10,8 +10,18 @@ related_publications: false
 
 ## Overview
 
-This project presents a novel overactuated tricopter featuring a servo-driven twisting and tilting mechanism. To address the asymmetry inherent in the tricopter configuration, we conducted a qualitative analysis of the disturbances introduced by the actuators. We emphasize the need to include gyroscopic torque effects caused by arm rotations and  proposed improved Force Decomposition (FD)-based iteration offering a low-cost computational solution.
 
+This letter presents a passively articulated over
+actuated tricopter alone with a Two-Step INDI (TS-INDI)
+framework. TS-INDI, built on the INDI framework, first uses Force Decomposition
+(FD) to pre-allocate control increments and then distributes
+the remaining increments via a pseudoinverse matrix, thereby
+retaining INDI’s robustness to potential singularities and non
+linearities while mitigating unbalanced propeller loads caused
+by actuator redundancy. Building on this, a TS-INDI-based
+extension (TS-INDI-TSM) accounts for the dynamic mismatch
+between thrust magnitude and direction, improving control
+performance. 
 
 <div class="row justify-content-sm-center">
      <div class="col-sm-8 mt-3 mt-md-0">
