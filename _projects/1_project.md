@@ -3,7 +3,7 @@ layout: page
 title: Over-Actuated Tricopter Platform
 description: This project presents a novel over-actuated tricopter platform.
 img: assets/img/proj_tri/tri.png
-importance: 1
+importance: 3
 category: work
 related_publications: false
 ---
@@ -84,8 +84,7 @@ The tricopter maneuvers along a square trajectory, similar to the simulation, in
 ## My Contributions
 
 - Participated in the development of the over-actuated UAV platform
-- Contributed to the design and implementation of flight control algorithms
-- Implemented control algorithms within the PX4 autopilot framework
+- Contributed to the implementation of flight control algorithms
 - Conducted flight testing, parameter tuning, and system debugging
 
 ---
