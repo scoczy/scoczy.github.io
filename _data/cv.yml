@@ -13,7 +13,7 @@ cv:
       username: scoczy
 
   address:
-    street: Guangming District, Xinhu Subdistrict, Sun Yat-sen University Shenzhen Campus
+    street: Sun Yat-sen University Shenzhen Campus
     city: Shenzhen
     region: Guangdong
     postalCode: 518107
@@ -25,8 +25,6 @@ cv:
       - name: UAV flight control
         icon: fa-solid fa-tag
       - name: Over-actuated aerial vehicles
-        icon: fa-solid fa-tag
-      - name: PX4 autopilot systems
         icon: fa-solid fa-tag
       - name: Autonomous flight and robotics
         icon: fa-solid fa-tag
