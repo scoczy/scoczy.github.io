@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Over-Actuated Tricopter Platform
-description: This project presents a novel over-actuated tricopter platform.
+description: This project presents a novel over-actuated tricopter platform while taking into account the additional moments introduced by the actuation mechanism.
 img: assets/img/proj_tri/tri.png
 importance: 3
 category: work
@@ -38,7 +38,6 @@ This project presents a novel overactuated tricopter featuring a servo-driven tw
 - Servo-driven over-actuated omnidirectional tricopter with high maneuverability and improved flight efficiency
 - Explicit modeling and evaluation of disturbances introduced by arm rotation mechanisms
 - Consideration of gyroscopic torque effects caused by rotating arms, with a low-computational-cost compensation method
-- Validated through simulation and real-world flight experiments
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
