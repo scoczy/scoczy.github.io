@@ -422,7 +422,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-over-actuated-tricopter-platform",
           title: 'Over-Actuated Tricopter Platform',
-          description: "This project presents a novel over-actuated tricopter platform.",
+          description: "This project presents a novel over-actuated tricopter platform while taking into account the additional moments introduced by the actuation mechanism.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-a-passively-articulated-overactuated-tricopter",
