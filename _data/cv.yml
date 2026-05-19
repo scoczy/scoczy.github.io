@@ -80,21 +80,25 @@ cv:
         keywords: "UAV systems, Flight controller tuning"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: A Passively Articulated Overactuated Tricopter
+        summary: A passively articulated over-actuated tricopter is presented along with a Two-Step INDI (TS-INDI) control framework. Furthermore, a TS-INDI-based extension, termed TS-INDI-TSM, is proposed to address the dynamic mismatch between thrust magnitude and direction, thereby improving control performance.
 
-      - name: Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - A passively articulated overactuated tricopter platform is proposed.
+          - A two-step INDI scheme (TS-INDI) is proposed and adopted to enhance the platform’s robustness against disturbances, singularities, and actuator redundancy.
+          - Within the TS-INDI framework, the dynamic mismatch between thrust magnitude and direction is explicitly taken into account in a computationally lightweight manner.
+
+        start_date: 2024-12-14
+        end_date: 2025-12-27
+
+      - name: Over-Actuated Tricopter Platform
+        summary: A novel over-actuated tricopter featuring a servo-driven twisting and tilting mechanism is presented. Particular emphasis is placed on incorporating the gyroscopic torque effects induced by arm rotations, and an improved Force Decomposition (FD)-based iterative method is proposed to provide a computationally efficient low-cost solution.
+        highlights:
+          - Servo-driven over-actuated omnidirectional tricopter with high maneuverability and improved flight efficiency
+          - Explicit modeling and evaluation of disturbances introduced by arm rotation mechanisms
+          - Consideration of gyroscopic torque effects caused by rotating arms, with a low-computational-cost compensation method
+        start_date: 2024-10-13
+        end_date: 2025-11-21
         
     References:
       - name: Professor John Doe
