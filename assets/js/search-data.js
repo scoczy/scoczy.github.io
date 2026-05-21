@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This page highlights my academic background and research contributions in aerial robotics, control systems, and over-actuated UAV platforms. Detailed CV is available in the downloadable PDF.",
+          description: "This page highlights my academic background and research contributions in aerial robotics. Detailed CV is available in the downloadable PDF.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
