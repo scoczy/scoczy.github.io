@@ -11,17 +11,33 @@ related_publications: false
 ## Overview
 
 
-This project presents a passively articulated over
-actuated tricopter alone with a Two-Step INDI (TS-INDI)
-framework. TS-INDI, built on the INDI framework, first uses Force Decomposition
-(FD) to pre-allocate control increments and then distributes
-the remaining increments via a pseudoinverse matrix, thereby
-retaining INDI’s robustness to potential singularities and non
-linearities while mitigating unbalanced propeller loads caused
-by actuator redundancy. Building on this, a TS-INDI-based
-extension (TS-INDI-TSM) accounts for the dynamic mismatch
-between thrust magnitude and direction, improving control
-performance. 
+This letter presents a passively articulated overac
+tuated tricopter along with a Two-Step Incremental Nonlinear
+Dynamic Inversion (TS-INDI) framework. For such platforms,
+large-attitude flight may bring two-degree-of-freedom (2-DOF)
+joints close to kinematic singularities and increase reliance on
+thrust-direction rather than thrust-magnitude changes, which
+amplifies nonlinearities and reduces stability margins. This
+motivates the use of Incremental Nonlinear Dynamic Inver
+sion (INDI) due to its incremental feedback structure and
+robustness to model uncertainties. However, conventional INDI
+suffers from path-dependent control allocation in redundant
+systems, where the actuator commands depend not only on
+the commanded pseudo-control input but also on the historical
+trajectory of the inputs. This may lead to unbalanced propeller
+loads and reduced stability margins. To address this issue, TS
+INDI preserves the INDI feedback structure but computes the
+actuator increment in two steps: Force Decomposition (FD)
+first constructs the main thrust increments from a minimum
+norm thrust distribution, and the linearized control-allocation
+model then computes the tilt-angle increments while allowing
+small thrust corrections. This mitigates the path-dependent
+allocation problem of conventional INDI. Building on this, a TS
+INDI-based extension, TS-INDI-TSM, accounts for the different
+response rates of thrust-magnitude and thrust-direction vari
+ations, improving control performance. Simulations and flight
+experiments validate stable large-attitude flight and effective
+disturbance rejection.
 
 <div class="row justify-content-sm-center">
      <div class="col-sm-8 mt-3 mt-md-0">
@@ -44,7 +60,6 @@ performance.
 ---
 
 ## Technical Highlights
-
 
 - A passively articulated overactuated tricopter platform is proposed.
 - A two-step INDI scheme (TS-INDI) is proposed and adopted to enhance the platform’s robustness against disturbances, singularities, and actuator redundancy.
