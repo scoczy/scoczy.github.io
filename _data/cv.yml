@@ -21,14 +21,6 @@ cv:
 
   sections:
 
-    Interests:
-      - name: UAV flight control
-        icon: fa-solid fa-tag
-      - name: Over-actuated aerial vehicles
-        icon: fa-solid fa-tag
-      - name: Autonomous flight and robotics
-        icon: fa-solid fa-tag
-  
     Education:
       - institution: Sun Yat-sen University (SYSU)
         location: Shenzhen, China
@@ -69,15 +61,15 @@ cv:
     Skills:
       - name: Control / Robotics
         icon: fa-solid fa-hashtag
-        keywords: "Nonlinear control,Control allocation"
+        keywords: "Flight control, Nonlinear control, Robust control, INDI, Control allocation, Over-actuated systems, Simulation"
 
       - name: Tools
         icon: fa-solid fa-hashtag
-        keywords: "PX4, MATLAB, Simulink, C++"
+        keywords: "PX4, MATLAB, Simulink, SOLIDWORKS"
 
       - name: Hardware
         icon: fa-solid fa-hashtag
-        keywords: "UAV systems, Flight controller tuning"
+        keywords: "UAV platform design, Flight controller tuning, Real-flight experiments"
 
     Projects:
       - name: A Passively Articulated Overactuated Tricopter
