@@ -52,7 +52,7 @@ performance.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj_pass/statement.jpg" title="Statement" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj_pass/dynamic mismatch.png" title="Statement" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
