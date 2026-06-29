@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Prepared a research manuscript on passive tilt-rotor tricopter systems, currently under review
+Submitted a manuscript on a passively articulated over-actuated tricopter, currently under review.
