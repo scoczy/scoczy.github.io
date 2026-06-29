@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  MSc Student in Control & Robotics
+subtitle:  MSc Student | Aerial Robotics, Over-Actuated UAVs, and Flight Control
 
 profile:
   align: right
@@ -26,18 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an MSc student in control and robotics at Sun Yat-sen University. My recent research focuses on over-actuated UAV platforms, including control allocation and robust flight control.
-My work combines theoretical control design with practical robotic system development. I have experience in UAV modeling, controller implementation, simulation, and real-world flight experiments.
-Currently, I am exploring topics related to over-actuated UAV platforms and autonomous flight control for aerial robots. I am also interested in reinforcement learning and motion planning for real-world UAV systems.
+I am an MSc student in Control and Robotics at Sun Yat-sen University. My research focuses on aerial robotics and flight control, particularly for over-actuated and thrust-vectored UAV platforms. 
 
-I am actively seeking PhD opportunities in robotics, autonomous systems, and control theory. My research interests include:
+I am interested in over-actuated and thrust-vectored rotorcraft platforms, as I believe they can open new possibilities for aerial robots to perform complex aerial operations beyond conventional flight. My recent work focuses on the design and control of over-actuated rotorcraft platforms, aiming to improve flight performance and robustness by jointly considering platform morphology, actuator dynamics, and actuation redundancy.
 
-UAV flight control
-Over-actuated aerial vehicles
-Autonomous aerial robotics
-Control allocation and robust control
 
-- UAV flight control
-- Over-actuated aerial vehicles
-- Autonomous aerial robotics
-- Control allocation and robust control
+A central theme of my work is to bridge control design with physical robotic systems. I have been involved in the design and development of custom UAV platforms, from platform morphology and dynamic modeling to PX4-based implementation and real-flight experiments. This experience motivates me to explore the control and potential applications of over-actuated rotorcraft platforms.
+
+Looking forward, I am interested in developing control and autonomy methods that enable more capable and robust aerial robotic systems. I am seeking PhD opportunities where I can continue exploring aerial robotics, flight control, and real-world robotic systems.
