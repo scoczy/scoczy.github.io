@@ -33,4 +33,4 @@ I am interested in over-actuated and thrust-vectored rotorcraft platforms, as I 
 
 A central theme of my work is to bridge control design with physical robotic systems. I have been involved in the design and development of custom UAV platforms, from platform morphology and dynamic modeling to PX4-based implementation and real-flight experiments. This experience motivates me to explore the control and potential applications of over-actuated rotorcraft platforms.
 
-Looking forward, I am interested in developing control and autonomy methods for aerial robotic systems, while also exploring how platform design and actuation mechanisms can enable new robotic capabilities. I am seeking PhD opportunities where I can continue exploring aerial robotics, flight control, and real-world robotic systems.
+Looking forward, I am interested in developing control and autonomy methods for aerial robotic systems, while also exploring how platform design and actuation mechanisms can enable new robotic capabilities.
